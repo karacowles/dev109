@@ -1,0 +1,95 @@
+page {
+    font-family: 'DowntownEleganceRegular';
+   font-weight: normal;
+   font-style: normal;
+    text-align: center;
+}
+
+header{
+  
+    text-align: center; 
+    padding: 0.5em 0;
+    font-family: 'DowntownEleganceRegular';
+   font-weight: normal;
+   font-style: normal;
+
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+   background-image: url("https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=600");
+    text-align: center;
+     font-family: 'DowntownEleganceRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+#content {
+    overflow: auto;
+}
+
+nav{
+    background-color: cornflowerblue;
+    margin: 1%;
+    padding: 0.5em 0;
+}
+
+#feature {
+    background-color: lightgoldenrodyellow;
+    margin: 1%;
+background-image:  url(https://static.skillshare.com/uploads/project/290620/cover_1242_c035fb671ced37bba4196b4d64a58743.jpg);
+   background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+    
+}
+
+footer {
+    margin: 1%;
+        padding: 0.5em 0;
+       background-color:azure;
+    font-family: sans-serif;
+}
+
+.column1{
+    background-color: peachpuff;
+}
+
+.column2{
+    background-color: lightseagreen;
+}
+
+.column3{
+    background-color: palevioletred;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+
+
+.column3 {
+    margin-right: 0%;
+}
+
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+
+ 
+
+
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+
+}
+
+
+
