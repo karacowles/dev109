@@ -152,7 +152,7 @@ ul{
     font-size: 17px; 
     font-weight: normal; 
 }
-
+/*
 #resume {
     display: flex;
     flex-direction: row;
@@ -176,7 +176,7 @@ ul{
     margin: 5%;
     text-align:center;
 }
-
+*/
 #span {
     margin: 2%;
    text-align: center;
@@ -233,9 +233,6 @@ margin-top: 100px;
     text-align: center;
 }
 
-#reslink {
-    
-}
 
 
 #hilma {
@@ -261,3 +258,21 @@ margin-top: 100px;
 #link{
     text-align: center;
 }
+
+/*artifact style for img and p kara-note that position: relative margin: auto and width: max-content good to get img and p to look more centered on page*/
+
+#asection{
+    display: flex;
+    column-gap:  32px;
+    padding-top: 2rem;
+    position: relative;
+    margin: auto;
+    width: max-content;
+    
+}
+
+.artifactpage {
+    padding-top: 1rem;
+    
+}
+
