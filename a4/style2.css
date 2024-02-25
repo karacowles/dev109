@@ -1,0 +1,278 @@
+
+body { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px; 
+    background: black;
+    background-image: url(https://www.fortplainfreelibrary.org/wp-content/uploads/2016/05/free-professional-website-backgrounds_188492.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+
+
+a { color: black;
+}
+
+a:hover {
+    color: #002fa7; 
+}
+
+p {
+    padding-top: 25px;
+}
+
+h2{
+    padding: 25px;
+    text-align: center;
+}
+#list{
+
+    text-align: center;
+    list-style:none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+#wrap { 
+    margin: 20px auto;
+    width: 940px;
+    background: #fff;
+     float: right; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+   
+}
+
+#header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 20px 0 40px 0;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0 0 0 30px;
+    font-weight: bold;
+    color: #3f3f3f;
+    font-size: 38px;
+    line-height: 65px;
+    letter-spacing: -1px;
+}
+
+#header h2 {
+    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 0 0 20px; 
+    padding: 5px 12px;
+    font-weight: normal;
+    color: #171717;
+    font-size: 22px;
+    letter-spacing: -1px;
+    background: #FFEE9F;
+    border: 1px solid #FFE25F;
+    display: inline;
+}
+
+#topmenu {
+    background: #f1f1f1;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+}
+
+#topmenu ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none;
+}
+
+#topmenu li { 
+    display: inline;
+    padding: 0 20px 0 0 
+}
+
+#topmenu li a { 
+    text-decoration: none; 
+}
+
+
+#menu {
+    font-size: 14px;
+    float: right; 
+    width: 300px; 
+    color: #fff;
+    margin: 30px 20px 20px 0;
+}
+
+#menu h3 {
+    font-weight: normal; 
+    background: #5f5f5f; 
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0; 
+}
+
+#menu ul { 
+    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    list-style-type: none; 
+    margin: 0; padding: 0 10px 10px 10px;
+}
+
+#content { 
+    float: left; 
+    width: 580px; 
+    margin: 10px 0 40px 20px;
+}
+
+#content h2 {
+    font-weight: normal; 
+    font-size: 22px; 
+    line-height: 33px;
+}
+
+#content h3 { 
+    font-size: 17px; 
+    font-weight: normal; 
+}
+/*
+#resume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: content;
+    margin: 5%;
+    text-align:center;
+
+}
+
+#chess { 
+    
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: content;
+    margin: 5%;
+    text-align:center;
+}
+*/
+#span {
+    margin: 2%;
+   text-align: center;
+}
+
+#resumelink {
+    text-align: center;
+      margin: 2%;
+ 
+}
+
+#chesslink {
+    text-align: center;
+    
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    
+}
+
+.row2{
+    text-align: center;
+}
+
+.columnl {
+float: left;
+margin-left: 100px;
+margin-bottom: 50px;
+}
+
+.columnlart {
+float: left;
+margin-left: 400px;
+margin-top: 100px;
+    text-align: center;
+}
+
+.columnr {
+    float: right;
+    margin-right: 300px;
+    
+}
+
+.columnrart {
+    float: right;
+    margin-right: 400px;
+    margin-top: 110px;
+    text-align: center;
+}
+
+
+
+#hilma {
+    text-align: center;
+}
+
+#hilmap {
+    text-align: center;
+}
+
+ #artifactsp {
+    text-align: center;
+}
+
+#quote {
+    padding-top: 1px;
+}
+
+.about{
+    padding-left: 20px;
+}
+
+#link{
+    text-align: center;
+}
+
+/*artifact style for img and p kara-note that position: relative margin: auto and width: max-content good to get img and p to look more centered on page*/
+
+#asection{
+    display: flex;
+    column-gap:  32px;
+    padding-top: 2rem;
+    position: relative;
+    margin: auto;
+    width: max-content;
+    
+}
+
+.artifactpage {
+    padding-top: 1rem;
+    
+}
+
