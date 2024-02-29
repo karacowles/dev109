@@ -1,9 +1,4 @@
-/*ADD THE FOLLOWING FOR EACH INVALID_ IN HTML IF YOU CAN'T FIGURE OUT THE ORIGINAL WARNING PHRASE
-#invalid_1{
-    color:red;
-    position: absolute;
-    top: 0px; will have to play around with this and left
-    left: 220px; */
+/*Wanted to note that the error msgs on my texteditor live preview and on this hosting site come up in different places. On my live preview it looks perfect so I don't know what is up with Github */
 
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
