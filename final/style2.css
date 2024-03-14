@@ -1,0 +1,449 @@
+
+body { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px; 
+    background: black;
+    background-image: url(https://www.fortplainfreelibrary.org/wp-content/uploads/2016/05/free-professional-website-backgrounds_188492.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+a { color: black;
+}
+
+a:hover {
+    color: #002fa7; 
+}
+
+p {
+    padding-top: 25px;
+}
+
+h2{
+    padding: 25px;
+    text-align: center;
+}
+#course {
+    margin-top: 0;
+     margin-bottom: 0;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+#list{
+  
+    margin-top: 5px;
+    text-align: center;
+    list-style:none;
+ 
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content:flex-end;
+    grid-row-gap: 5px;
+}
+
+
+#wrap { 
+    margin: 20px auto;
+    width: 940px;
+    background: #fff;
+    float: right; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+   
+}
+
+
+#header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 20px 0 40px 0;
+}
+#headercourse {
+    
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 20px 0 5px 0;
+}
+
+
+
+#header h1 {
+    margin: 0;
+    padding: 0 0 0 30px;
+    font-weight: bold;
+    color: #3f3f3f;
+    font-size: 38px;
+    line-height: 65px;
+    letter-spacing: -1px;
+}
+
+#header h2 {
+    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 0 0 20px; 
+    padding: 5px 12px;
+    font-weight: normal;
+    color: #171717;
+    font-size: 22px;
+    letter-spacing: -1px;
+    background: #FFEE9F;
+    border: 1px solid #FFE25F;
+    display: inline;
+}
+#topmenu {
+margin-left: 47.5%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #e1e1e1;
+    padding: 1px 1px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#topmenu ul {
+    margin: 0; 
+    padding: 1px 3px; 
+    list-style-type: none; 
+    float: left;
+    display: block; 
+    text-align: center; }
+
+#topmenu li { 
+    display: inline; 
+    padding: 0 20px 0 0 }
+
+#topmenu li a { 
+    text-decoration: none; 
+}
+
+#mktg {
+    margin-top: 0;
+    padding-bottom: 1px 1px 1px 1px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+/*
+#wrap { 
+  
+position: sticky; 
+margin: 20px auto;
+width: 900px;
+     
+background: white;
+ float: right; 
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+border-radius: 10px;
+border-radius: 10px;
+   
+}
+*/
+
+/*
+#topmenu {
+    background: #f1f1f1;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+}
+*/
+
+/*
+#topmenu ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none;
+}
+
+#topmenu li { 
+    display: inline;
+    padding: 0 20px 0 0 
+}
+
+#topmenu li a { 
+    text-decoration: none; 
+}
+*/
+
+
+#menu {
+    font-size: 14px;
+    float: right; 
+    width: 300px; 
+    color: #fff;
+    margin: 30px 20px 20px 0;
+}
+
+#menu h3 {
+    font-weight: normal; 
+    background: #5f5f5f; 
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0; 
+}
+
+#menu ul { 
+    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    list-style-type: none; 
+    margin: 0; padding: 0 10px 10px 10px;
+}
+
+#content { 
+    float: left; 
+    width: 580px; 
+    margin: 10px 0 40px 20px;
+}
+
+#content h2 {
+    font-weight: normal; 
+    font-size: 22px; 
+    line-height: 33px;
+}
+
+#content h3 { 
+    font-size: 17px; 
+    font-weight: normal; 
+}
+/*
+#resume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: content;
+    margin: 5%;
+    text-align:center;
+
+}
+
+#chess { 
+    
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: content;
+    margin: 5%;
+    text-align:center;
+}
+*/
+#span {
+    margin: 2%;
+   text-align: center;
+}
+
+#resumelink {
+    text-align: center;
+      margin: 2%;
+ 
+}
+
+#chesslink {
+    text-align: center;
+    
+}
+
+.row {
+   display: flex;
+    column-gap:  32px;
+    padding-top: 2rem;
+    position: relative;
+    margin: auto;
+    width: max-content;
+    margin-top: 5px;
+}
+
+.column {
+    flex: 50%;
+    padding: 2px;
+    
+}
+
+.row2{
+    text-align: center;
+}
+
+.columnl {
+float: left;
+margin-left: 100px;
+margin-bottom: 50px;
+}
+
+.columnlart {
+float: left;
+margin-left: 400px;
+margin-top: 100px;
+    text-align: center;
+}
+
+.columnr {
+    float: right;
+    margin-right: 300px;
+    
+}
+
+.columnrart {
+    float: right;
+    margin-right: 400px;
+    margin-top: 110px;
+    text-align: center;
+}
+
+
+
+#hilma {
+    text-align: center;
+}
+
+#hilmap {
+    text-align: center;
+}
+
+ #artifactsp {
+    text-align: center;
+}
+
+#quote {
+    padding-top: 1px;
+}
+
+.about{
+   margin-left: 10px;
+    margin-right: 1000px;
+    text-align: center;
+/*
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+*/
+
+}
+
+#link{
+    text-align: center;
+}
+
+/*artifact style for img and p kara-note that position: relative margin: auto and width: max-content good to get img and p to look more centered on page*/
+
+#asection{
+    display: flex;
+    column-gap:  32px;
+    padding-top: 2rem;
+    position: relative;
+    margin: auto;
+    width: max-content;
+    margin-top: 5px;
+    
+}
+
+.artifactpage {
+    padding-top: 1rem;
+    
+}
+
+#bunny {
+    position: relative;
+    margin-left: 1400px;
+    margin-top: 185px;
+
+}
+
+
+#owl {
+    position: relative;
+    margin-top: 35px;
+}
+/*css for contact me page*/
+form {
+    padding: 40px;
+  
+}
+
+.group label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+}
+
+.group input {
+    width: 320px;
+    padding: 10px;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+input.invalid {
+    border: 1px solid red;
+}
+
+.error{
+    color: red;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #002fa7; 
+    border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #002fa7; 
+    border: black;
+    color: white;
+}
+
+.hidden {
+    display: none;
+    
+}
+
+#bug {
+    position: relative;
+    margin-left: 1400px;
+    margin-top: -520px;
+    max-width: 100%;
+
+}
