@@ -1,0 +1,209 @@
+/*this style sheet is just for the homepage! all other pages are style2*/
+
+/* background-image: url( background-image: url("https://www.fortplainfreelibrary.org/wp-content/uploads/2016/05/free-professional-website-backgrounds_188492.jpg");*/
+body { 
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 10px; 
+    background-color: black;
+    background-image: url(me.jpg), url("https://www.fortplainfreelibrary.org/wp-content/uploads/2016/05/free-professional-website-backgrounds_188492.jpg");
+    background-size: 48%, 100%;
+ 
+    height: 100%;
+/*    width: 100%;*/
+    background-repeat: no-repeat;
+    background-position:  left top, right top;
+    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a { 
+    color: black;
+}
+
+a:hover {
+    color: #002fa7; 
+}
+
+#wrap {
+/*    float: right;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: 48%;
+padding-top: 1%;
+    margin-top: 1%;
+
+}
+
+#wrap > *{
+    padding: 10px;
+    flex: 1 100%;
+}
+
+#bgcolor {
+        background-color: rgba(0, 0, 0, 0.78);
+}
+
+#hello {
+color: white;
+font-size: 24px;
+}
+
+#main {
+    margin-bottom: 300px;
+    color: white;
+    font-size: 20px;
+ 
+}
+
+#header {
+  display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: 48%;
+    padding: 20px 0 40px 0;
+    margin-left: auto;
+    font-size: 38px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-indent: 3px;
+}
+
+ #h2 {
+    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 0 0 20px; 
+    padding: 5px 12px;
+    font-weight: normal;
+    color: #171717;
+    font-size: 22px;
+    letter-spacing: -1px;
+    display:inline-flex;
+}
+
+#topmenu {
+    margin-left: 47.5%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #e1e1e1;
+    padding: 1px 1px;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+}
+
+
+
+#topmenu ul {
+    margin: 0; 
+    padding: 1px 3px; 
+    list-style-type: none; 
+    float: left;
+    display: block; 
+    text-align: center;    
+}
+
+#topmenu li { 
+    display: inline; 
+    padding: 0 20px 0 0 
+}
+
+#topmenu li a { 
+    text-decoration: none; 
+}
+
+#menu {
+font-size: 14px;
+float: right;
+width: 300px; 
+color: white;
+margin: 30px 20px 20px 0;
+}
+
+#menu h3 {
+font-weight: normal; 
+background: #5f5f5f; 
+color: #fff;
+padding: 10px;
+margin: 10px 0; 
+}
+
+#menu ul { 
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+list-style-type: none; 
+margin: 0; 
+padding: 0 10px 10px 10px;
+    color: white;
+}
+
+#menu ul li a { 
+    color: white; 
+    text-decoration: none; 
+    border-bottom: 1px dotted white; 
+}
+#menu ul li a:hover {
+    color: #002fa7; 
+    font-weight: bold;
+    border-bottom: 1px dotted #002fa7; 
+}
+
+#footer { 
+/*  margin-top: 10%;*/
+ 
+    margin-bottom: 3%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+/*    background-color: rgba(0, 0, 0, 0.78);*/
+    color: #fff;
+}
+
+#footer a { 
+    color: #fff; 
+    text-decoration: none; 
+
+}
+
+#footer a:hover { 
+    border-bottom: 1px dotted #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
